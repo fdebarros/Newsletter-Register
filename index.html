@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Aula 8</title>
+	<meta charset="UTF-8" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div class="outsider">
+		<div class="insider">	
+			<h1>CADASTRO DE EMAIL</h1>
+			<h2>CADASTRAR EMAIL PARA RECEBER NOSSO NEWSLETTER</h2>
+			<div class="input">
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" class="form-control" />
+				<br/>
+				<label for="email">Email:</label>
+				<input type="text" id="email" class="form-control" maxlength="60"/>
+			</div>
+			<button id="btSalvar">ASSINAR</button>
+			<br/>
+			<br/>
+			<h3 id="cadastrados">Emails cadastrados:</h3>
+			<table id="tabela" class="table"></table>
+		</div>
+		<button id="btLimpar">Limpar</button>
+	</div>
+</body>
+</html>
