@@ -1,63 +1,72 @@
+body{
+    font-family: 'Montserrat';
+    background-color: dimgrey;
+
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10% 0;
+}
 .outsider {
+    background-color:  lightgrey;
     border-style: solid;
     border-width: 3px;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 10%;
-    background-color:  lightgrey;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 60%;
 }
 .insider{
-
-    margin: 10% 10% 6%;
-    /* margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 6%; */
+    margin: 6% 0;
 }
+
 h1{
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
 }
+
 h2{
     text-align: center;
-    margin: 12px auto;
-    font-size: 12px;
+    font-size: 1.0em;
 }
 h3{
-    clear: left;
     margin: 30px 0px 0px 0px;
-    font-size: 12px;
+    font-size: 1.0em;
 }
-table{
-    margin-top:5px;
+
+.cadastro{
+    display: flex;
 }
-label{
-    margin: 0 auto;
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.field{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 #nome{
-    margin-left: 10%;
     border-radius: 5px;
 }
 #email{
-    margin-top: 2%;
-    margin-left: 11.5%;
     border-radius: 5px;
     display: inline-block;
 }
-.input{
-    float: left;
-    width: 70%;
-}
+
 #btSalvar{
-    /* margin-top:-300%; */
-    float: left;
-    /* display: inline-block; */
-    margin-right: 0%;
-    /* margin-bottom: 25px; */
     border-radius: 15px;
     height: 50px;
-    width: 100px;
+    width: 30%;
     color:white;
     background-color: green;
 }
@@ -66,28 +75,25 @@ label{
     color:black;
 }
 #btLimpar{
-    margin-left: 1%;
-    margin-bottom:1%;
     border-radius: 15px;
     height: 30px;
     width: 60px;
+    margin: 2% 0 0 0;
+
     color:white;
     background-color: red;
     visibility: hidden;
 }
+
 #btLimpar:hover{
     background-color: lightcoral;
     color:black;
 }
 
-body{
-    font-family: 'Montserrat';
-    background-color: dimgrey;
-}
 button{
     border-radius: 5px;
 }
+
 #tabela{
-    margin-left: 0px;
-    font-size: 12px;
+    font-size: 0.8em;
 }
